@@ -1,0 +1,54 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.1",
+  "parameters": {
+    "storageAccountPrefix": {
+      "value": "clouderaclustersa"
+    },
+    "numberOfDataNodes": {
+      "value": 2
+    },
+    "dnsNamePrefix": {
+      "value": "clouderacluster"
+    },
+    "location": {
+      "value": "northeurope"
+    },
+    "storageAccountType": {
+      "value": "Standard_LRS"
+    },
+    "virtualNetworkName": {
+      "value": "clouderavnet"
+    },
+    "subnetName": {
+      "value": "clouderasubnet"
+    },
+    "tshirtSize": {
+      "value": "Eval"
+    },
+    "vmSize": {
+      "value": "Standard_A2"
+    },
+    "company": {
+      "value": "Cluster Reply"
+    },
+    "emailAddress": {
+      "value": "@reply.it"
+    },
+    "businessPhone": {
+      "value": "3488403718"
+    },
+    "firstName": {
+      "value": "Massimo"
+    },
+    "lastName": {
+      "value": "Iacca"
+    },
+    "jobRole": {
+      "value": "Manager"
+    },
+    "jobFunction": {
+      "value": "Manager"
+    }
+  }
+}
